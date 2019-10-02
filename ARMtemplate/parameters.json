@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": "test-loganaly487"
+        },
+        "subnetName": {
+            "value": "centralfin1-np001-euw-subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/cf045210-087e-482a-8f22-f0aee68f29f0/resourceGroups/network-np001-euw-001-rg/providers/Microsoft.Network/virtualNetworks/ops-np001-euw-001-vnet"
+        },
+        "virtualMachineName": {
+            "value": "test-loganaly"
+        },
+        "virtualMachineRG": {
+            "value": "tommy_temp"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "adminUsername": {
+            "value": "admin_partner"
+        },
+        "adminPassword": {
+            "value": null
+        }
+    }
+}
