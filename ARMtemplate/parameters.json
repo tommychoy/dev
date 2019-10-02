@@ -6,10 +6,10 @@
             "value": "westeurope"
         },
         "networkInterfaceName": {
-            "value": "test-loganaly487"
+            "value": "test-loganaly366"
         },
         "subnetName": {
-            "value": "centralfin1-np001-euw-subnet"
+            "value": "opsrouted-np001-euw-subnet"
         },
         "virtualNetworkId": {
             "value": "/subscriptions/cf045210-087e-482a-8f22-f0aee68f29f0/resourceGroups/network-np001-euw-001-rg/providers/Microsoft.Network/virtualNetworks/ops-np001-euw-001-vnet"
