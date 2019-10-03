@@ -299,11 +299,11 @@ If ($StartUTCTime -gt $EndUTCTime)
 #Login to the AA
 "Logging in to Azure..."
 
-#Add-AzureRmAccount `
-#      -ServicePrincipal `
-#      -TenantId $TenantId `
-#      -ApplicationId $AAApplicationId `
-#      -CertificateThumbprint $AACertificateThumbprint `
+Add-AzureRmAccount `
+      -ServicePrincipal `
+      -TenantId $TenantId `
+      -ApplicationId $AAApplicationId `
+      -CertificateThumbprint $AACertificateThumbprint `
 
 #Login to the Subscription
 $rmAccount = Set-AzureRmContext -SubscriptionId $SubscriptionId
